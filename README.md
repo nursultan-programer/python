@@ -1,2 +1,2 @@
-# python
-python learn with nursultan
+# flask
+evrybody this code languague python flask code
