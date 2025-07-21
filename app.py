@@ -1,9 +1,4 @@
-from flask import Flask
+import requests
 
-app = Flask(__name__)
-@app.route('/')
-def home():
-  return "welcome to website"
-
-if __name__=="__main__":
-  app.run(debug=True)
+response = requests.get('https://www.youtube.com')
+print(response.text)
